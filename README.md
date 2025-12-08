@@ -1,4 +1,95 @@
-# React + Vite
+***Asssignment questions and answer***
+Question 1: What is NPM?
+
+NPM is a tool that comes with Node.js. It is used to install and manage packages in javascript projects.  React and vite are installed using Npm
+
+
+Question 2: package.json?
+
+package.json is a file created automatically in every Node.js or react project. it contains te following:
+-The project name and version
+-Scripts
+-A list of dependencies(such as React and vite) and other project configuration details
+
+
+Question 3: whatis vite?
+vite is a modern frontend build tool used to createand run React application it is faster than old tools because
+-It starts the development server instantly
+-It reloads Quickly when you save changes
+-It also builds the final project very fast
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -13,4 +104,4 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project. -->
