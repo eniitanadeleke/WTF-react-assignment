@@ -1,0 +1,101 @@
+/* Features.css */
+
+.features {
+  background-color: var(--light-bg);
+  padding: 3rem 0;
+  position: relative;
+  margin-top: -50px; /* Overlap with hero */
+  z-index: 5;
+}
+
+.features-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* All same size */
+  gap: 2rem;
+  align-items: stretch; /* All same height */
+}
+
+/* Feature Card - ALL SAME SIZE */
+.feature-card {
+  background-color: #F5F7FA; /* Light gray */
+  padding: 2rem 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Center Card - TEAL Background */
+.feature-card-teal {
+  background-color: var(--primary-teal);
+}
+
+.feature-card-teal .feature-title,
+.feature-card-teal .feature-description {
+  color: var(--white);
+}
+
+/* Feature Icon Circle */
+.feature-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--primary-teal); /* Teal circle */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 4px 15px rgba(0, 191, 166, 0.3);
+}
+
+.feature-icon img {
+  width: 35px; /* Adjust logo size */
+  height: 35px;
+  object-fit: contain;
+}
+
+/* White Icon Circle (for teal card) */
+.feature-icon-white {
+  background-color: var(--white); /* White circle */
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Feature Title */
+.feature-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.8rem;
+}
+
+/* Feature Description */
+.feature-description {
+  font-size: 0.8rem;
+  color: var(--text-gray);
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .features-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .features {
+    margin-top: 0;
+  }
+}
