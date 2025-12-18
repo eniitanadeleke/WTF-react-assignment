@@ -45,6 +45,7 @@
   border-radius: 4px;
   transition: all 0.3s ease;
   font-weight: 500;
+  overflow-x:auto;
 }
 
 .topbar-language:hover {

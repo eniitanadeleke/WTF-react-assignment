@@ -33,12 +33,12 @@ function Testimonials() {
     <section className="testimonials">
       
       <img 
-        src="https://via.placeholder.com/80x80/FFC107/FFFFFF?text=Flower" 
+        src="flower" 
         alt="" 
         className="testimonial-decor testimonial-flower" 
       />
       <img 
-        src="https://via.placeholder.com/100x100/FF9800/FFFFFF?text=Sun" 
+        src="sun" 
         alt="" 
         className="testimonial-decor testimonial-sun" 
       />
