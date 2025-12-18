@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero'
 import Features from './components/Features/Features'
 import About from './components/About/About'
 import VideoStats from './components/VideoStats/VideoStats'
+import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <About />
       <VideoStats />
+      <WhyChooseUs />
 
     </div>
   )
