@@ -1,4 +1,3 @@
-// App.jsx
 import TopBar from './components/TopBar/TopBar'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
@@ -6,6 +5,7 @@ import Features from './components/Features/Features'
 import About from './components/About/About'
 import VideoStats from './components/VideoStats/VideoStats'
 import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs'
+import Testimonials from './components/Testimonials/Testimonials'
 import './App.css'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <About />
       <VideoStats />
       <WhyChooseUs />
-
+      <Testimonials /> 
     </div>
   )
 }
